@@ -1,26 +1,11 @@
-// import React from 'react';
-// import TypeWriter from './components/Display';
-
-// function App() {
-//   return (
-//     <div className="App">
-//     <h1>TypeWriter</h1>
-//     <TypeWriter text={'Hello Hello World'} />
-//   </div>
-//   ) 
-// }
-
-// export default App;
-
 import React from 'react';
-import Header from './components/Heather'
-import AboutMe from './components/AboutMe';
+import Header from './components/Header'
+import Home from './components/Home'
+import Aboutme from './components/Aboutme';
 
 const styles = {
   body: {
-    background: '#e36414'
-    
-
+    background: '#219ebc'
   }
 }
 
@@ -38,7 +23,8 @@ function App() {
     
     <div style={styles.body} className="App">
       <Header />      
-      <AboutMe texts={texts} />
+      <Home texts={texts} />
+      <Aboutme />
     </div>
   );
 }
