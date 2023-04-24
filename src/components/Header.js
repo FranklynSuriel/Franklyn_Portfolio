@@ -1,11 +1,17 @@
 
 import React from 'react';
-// import logo from './frankLogo.png'
+import logo from './pictures/frankLogo.png'
+
+const styles = {
+    logo: {
+        width: '100px'
+    }
+}
 
 function Header() {
     return (
-        <header className='d-flex justify-content-end sticky-top'>
-            {/* <img style={styles.logo}  src={logo} alt="Logo" />*/}
+        <header className='d-flex justify-content-between'>
+            <img src={logo} alt='Logo' style={styles.logo} />
             <nav id="navbar-example2" className="navbar navbar-light px-3 fs-5">
                 <ul className="nav nav-pills">
                     <li class="nav-item">
