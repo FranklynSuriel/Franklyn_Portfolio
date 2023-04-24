@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Home from './components/Home'
 import Aboutme from './components/AboutMe';
 import Projects from './components/projects';
+import ContactMe from './components/contactMe';
 
 const styles = {
   body: {
@@ -26,7 +27,8 @@ function App() {
       <Header />
       <Home texts={texts} />
       <Aboutme />
-      <Projects /> 
+      <Projects />
+      <ContactMe /> 
     </div>
   );
 }

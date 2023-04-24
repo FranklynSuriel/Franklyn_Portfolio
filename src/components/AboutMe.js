@@ -7,14 +7,15 @@ const styles = {
         width: '300px'
     },
     p: {
-        fontSize: '1.4rem'
+        fontSize: '1.4rem',
+        textAlign: 'justify'
     }
 }
 
 
 function Aboutme() {
     return (
-        <div className="row d-flex justify-content-center mb-5">
+        <div className="row d-flex justify-content-center my-5">
             <div className='col 12 justify-content-center'  >
                 <h2  id='aboutMe' className='text-center'>About Me</h2>
                 <div className=" d-flex justify-content-center">

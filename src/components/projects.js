@@ -18,11 +18,11 @@ const styles = {
 
 function Projects() {
     return (
-        <div id='work' className='row pb-5'>
+        <div id='work' className='row my-5'>
             <h2 className='text-center' >Portfolio</h2>
             <div className='d-flex flex-wrap justify-content-center p-5'>
                 <div className='col-12 col-md-6 col-lg-4 p-4'>                    
-                    <div className="card d-flex "  >
+                    <div className="card  "  >
                         <div className="card-body" style={styles.card}>
                             <h5 className="card-title">NeoPlants</h5>
                             <p className="card-text">An interactive game app where you can grow you plant on the screen</p>
