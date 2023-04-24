@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header'
 import Home from './components/Home'
 import Aboutme from './components/Aboutme';
+import Projects from './components/projects';
 
 const styles = {
   body: {
@@ -15,7 +16,7 @@ function App() {
     'studying React.',
     // 'I love to code',
     'constantly learning.',
-    'always looking for new challenges.',
+    // 'always looking for new challenges.',
   ];
 
   return (
@@ -25,6 +26,7 @@ function App() {
       <Header />      
       <Home texts={texts} />
       <Aboutme />
+      <Projects />
     </div>
   );
 }

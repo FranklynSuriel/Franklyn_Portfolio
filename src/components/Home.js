@@ -1,19 +1,15 @@
 import React, { useState, useEffect, useRef } from 'react';
-import myPic from './franklyn.png'
+
 
 const styles = {
+  position: {
+    position: 'relative'
+  },
   nameText: {
     fontSize: '4.4rem'
   },
   animationText: {
     fontSize: '2.4rem',
-  },
-  ownerImg: {
-    height: '350px',
-    width: '300px'
-  },
-  p: {
-    fontSize: '1.4rem'
   }
 }
 
@@ -61,11 +57,15 @@ const Home = ({ texts }) => {
   }, [texts]);
 
   return (
-    <div>
-      <div className='vh-100'>
-      <h1 style={styles.nameText}>Franklyn Suriel</h1>
-      <p style={styles.animationText}>I am {currentText}</p>
-      </div>      
+    <div id='home'className='vh-100 d-flex justify-content-center align-items-center' style={styles.position}>
+      <div>
+        <div className='d-flex'>
+          <h1 style={styles.nameText}>Franklyn Suriel</h1>
+        </div>
+        <div>
+          <p className='d-flex' style={styles.animationText}>I am {currentText}</p>
+        </div>
+      </div>
     </div>
 
   )
