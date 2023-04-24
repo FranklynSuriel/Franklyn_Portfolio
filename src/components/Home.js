@@ -57,7 +57,7 @@ const Home = ({ texts }) => {
   }, [texts]);
 
   return (
-    <div id='home'className='vh-100 d-flex justify-content-center align-items-center' style={styles.position}>
+    <div id='home'  className='vh-100 d-flex justify-content-center align-items-center' style={styles.position}>
       <div>
         <div className='d-flex'>
           <h1 style={styles.nameText}>Franklyn Suriel</h1>
