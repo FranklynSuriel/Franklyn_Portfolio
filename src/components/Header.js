@@ -4,11 +4,14 @@ import React from 'react';
 
 function Header() {
     return (
-        <header className='d-flex justify-content-end'>
+        <header className='d-flex justify-content-end sticky-top'>
             {/* <img style={styles.logo}  src={logo} alt="Logo" />*/}
             <nav className='mx-3 pt-5'>
                 <ul className='d-flex flex-wrap list-unstyled fs-4'>
                     {/* link to About me section */}
+                    <li className='mx-3'>
+                        <a className='text-dark' href="#home">Home</a>
+                    </li>
                     <li className='mx-3'>
                         <a className='text-dark' href="#aboutMe">About Me</a>
                     </li>
