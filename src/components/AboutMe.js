@@ -15,8 +15,8 @@ const styles = {
 function Aboutme() {
     return (
         <div className="row d-flex justify-content-center mb-5">
-            <div className='col 12 justify-content-center'>
-                <h2 id='aboutMe' className='text-center'>About Me</h2>
+            <div className='col 12 justify-content-center'  >
+                <h2  id='aboutMe' className='text-center'>About Me</h2>
                 <div className=" d-flex justify-content-center">
                     <img className='rounded-5 col-5 m-3' style={styles.ownerImg} src={myPic} alt="Portfolio owner" />
                     <p className='col-5 m-3' style={styles.p}>Greetings! I am a full-stack web developer, and my name is Franklyn Suriel. Since I started

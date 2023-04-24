@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header'
 import Home from './components/Home'
-import Aboutme from './components/Aboutme';
+import Aboutme from './components/AboutMe';
 import Projects from './components/projects';
 
 const styles = {
@@ -23,10 +23,10 @@ function App() {
     
     
     <div style={styles.body} className="App">
-      <Header />      
+      <Header />
       <Home texts={texts} />
       <Aboutme />
-      <Projects />
+      <Projects /> 
     </div>
   );
 }
