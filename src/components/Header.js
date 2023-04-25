@@ -1,5 +1,6 @@
 // import react
 import React from 'react';
+import resume from './assets/Profile.pdf'
 
 // create a function to render the header section. 
 // include my name on the top-left and a nav bar on the top-right
@@ -23,7 +24,7 @@ function Header() {
                         <a className="nav-link text-dark" href="#contactMe">Contact Me</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-dark" href="#aboutMe">Resume</a>
+                        <a className="nav-link text-dark" href={resume}>Resume</a>
                     </li>                    
                 </ul>
             </nav>            

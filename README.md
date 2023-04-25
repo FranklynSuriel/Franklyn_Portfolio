@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Franklyn Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![License](https://img.shields.io/badge/license-MIT-green)
 
-## Available Scripts
+A front end web developer portfolio to showcase projects.
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+In this application we use React to create a front end webpage. It was interesting to create the different components and join them in the App.js to render the webpage. We use different packages like react, react-dom, and react-script. We also learn how to use gh-pages to deploy to github.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [License](#License)
+  - [Contributions](#Contributions)
+  - [Test](#Test)
+  - [Questions](#Questions)
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This application runs in the browser and requires the following packages:
+- [react](https://www.npmjs.com/package/react)
+- [react-dom](https://www.npmjs.com/package/react-dom)
+- [react-scripts](https://www.npmjs.com/package/react-scripts)
+- [react-use](https://www.npmjs.com/package/react-use)
+- [web-vitals](https://www.npmjs.com/package/web-vitals)
+- [gh-pages](https://www.npmjs.com/package/gh-pages)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+- [bootstrap](https://www.npmjs.com/package/bootstrap)
+- [axios](https://www.npmjs.com/package/axios)
+- [@testing-library/user-event](https://www.npmjs.com/package/@testing-library/user-event)
+- [@testing-library/react](https://www.npmjs.com/package/@testing-library/react)
+- [@testing-library/jest-dom](https://www.npmjs.com/package/@testing-library/jest-dom)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Github repository site here: [https://github.com/FranklynSuriel/franklyn_portfolio](https://github.com/FranklynSuriel/franklyn_portfolio)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Deployed site here: [https://franklynsuriel.github.io/franklyn_portfolio/](https://franklynsuriel.github.io/franklyn_portfolio/)
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Open it in the browser. You can find a navigation bar with link to each section on the portfolio. If you click **About Me** you will directed to the about me section. If you click **Portfolio** you will be directed to the portfolio section. if you click **Contact Me** you will be directed to the contact me section. If you click on **Resume** you will be linked to a resume. When you are on the Portfolio section, you can click on the links on each project to visit the deployed site or the github repo site. When you explore the contact me section, you can click on the icons to visit linkedin profile or github profile.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Portfolio_React](./src/components/pictures/Portfolio_React.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Credits
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Documentation(s) and webpage(s):
 
-## Learn More
+- W3 Schools
+- react
+- gh-pages
+- Stack Overflow
+- devicon.dev
+- coolors.co
+- Bootstrap
+- create-react-app.dev
+- CodeSandbox
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Inspiration:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[https://www.braiscao.dev/](https://www.braiscao.dev/)
 
-### Code Splitting
+[https://www.youtube.com/watch?v=9LHr3ER0qtY](https://www.youtube.com/watch?v=9LHr3ER0qtY)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT license.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+No contributions guidelines.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Test
 
-### Advanced Configuration
+No test available.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Questions
 
-### Deployment
+[github.com/FranklynSuriel](https://github.com/FranklynSuriel)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Questions about this project or to report an issue can be sent to:
+fsuriel@gmail.com. Please specify the name of the project in the subject of the email.
