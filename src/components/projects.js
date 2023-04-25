@@ -1,10 +1,13 @@
+// import react
 import React from 'react';
+// import pictures
 import Tech_Blog from './pictures/Tech Blog app.jpg'
 import NeoPlants from './pictures/Neo Plants.jpg'
 import movieBattle from './pictures/Movie_Battle.jpg'
 import noteTaker from './pictures/Note_Taker.jpg'
 import scheduler from './pictures/Work-day-Scheduler.jpg'
 
+// set height of cards and pics sizes
 const styles = {
     card: {
         height: '550px'
@@ -16,11 +19,14 @@ const styles = {
     }
 }
 
+// create a function to render the portfolio section
+// use bootstrap for style
 function Projects() {
     return (
         <div id='work' className='row my-5'>
             <h2 className='text-center' >Portfolio</h2>
             <div className='d-flex flex-wrap justify-content-center p-5'>
+                {/* Create diferent card to display projects, display them by 3 and mobile one */}
                 <div className='col-12 col-md-6 col-lg-4 p-4'>                    
                     <div className="card  "  >
                         <div className="card-body" style={styles.card}>
@@ -92,4 +98,5 @@ function Projects() {
     )
 };
 
+// export Projects
 export default Projects;

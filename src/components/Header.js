@@ -1,17 +1,13 @@
-
+// import react
 import React from 'react';
-import logo from './pictures/frankLogo.png'
 
-const styles = {
-    logo: {
-        width: '100px'
-    }
-}
-
+// create a function to render the header section. 
+// include my name on the top-left and a nav bar on the top-right
+// use bootstrap for style and spacing
 function Header() {
     return (
         <header className='d-flex justify-content-between'>
-            <img src={logo} alt='Logo' style={styles.logo} />
+            <h3 className='pt-3'>Franklyn Suriel</h3>
             <nav id="navbar-example2" className="navbar navbar-light px-3 fs-5">
                 <ul className="nav nav-pills">
                     <li class="nav-item">
@@ -30,11 +26,10 @@ function Header() {
                         <a className="nav-link text-dark" href="#aboutMe">Resume</a>
                     </li>                    
                 </ul>
-            </nav>
-            
+            </nav>            
         </header>
-
     );
 }
 
+// export Header
 export default Header;

@@ -1,26 +1,35 @@
+// import React and necessary files
 import React from 'react';
 import myPic from './pictures/franklyn.png'
 
+
 const styles = {
+    // style the about me pic 
     ownerImg: {
         height: '350px',
         width: '300px'
     },
+    // style the paragraph font size and align
     p: {
         fontSize: '1.4rem',
         textAlign: 'justify'
+    },
+    padding: {
+        padding: '0 0 200px 0'
     }
 }
 
-
+// create a function to render the about me section which included a picture and a paragraph. make them be side to side
 function Aboutme() {
     return (
-        <div className="row d-flex justify-content-center my-5">
-            <div className='col 12 justify-content-center'  >
-                <h2  id='aboutMe' className='text-center'>About Me</h2>
-                <div className=" d-flex justify-content-center">
-                    <img className='rounded-5 col-5 m-3' style={styles.ownerImg} src={myPic} alt="Portfolio owner" />
-                    <p className='col-5 m-3' style={styles.p}>Greetings! I am a full-stack web developer, and my name is Franklyn Suriel. Since I started
+        // use bootstrap to set display flex and justify content center
+        // add an about me id tag to link to the nav bar
+        <div id='aboutMe' className="row d-flex justify-content-center" style={styles.padding}>
+            <div col-12 >
+                <h2 className='text-center'>About Me</h2>
+                <div className=" d-flex flex-wrap justify-content-center p-5">
+                    <img className='rounded-5 col-12 col-md-4 m-3' style={styles.ownerImg} src={myPic} alt="Portfolio owner" />
+                    <p className='col-12 col-md-6 m-4' style={styles.p}>Greetings! I am a full-stack web developer, my name is Franklyn Suriel. Since I started
                         studying web development, I have been constantly fascinated by the world of web technologies.I am proficient in HTML, CSS, and JavaScript, and I have experience in using Bootstrap to create
                         responsive, mobile-first designs. I also have experience working with Web APIs and Third-Party APIs
                         to develop interactive web applications.
@@ -31,4 +40,5 @@ function Aboutme() {
     )
 };
 
+// export Aboutme
 export default Aboutme;
