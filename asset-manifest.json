@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/franklyn_portfolio/static/css/main.c2cab247.css",
-    "main.js": "/franklyn_portfolio/static/js/main.1d6668e5.js",
+    "main.js": "/franklyn_portfolio/static/js/main.169d3be0.js",
     "static/media/franklyn.png": "/franklyn_portfolio/static/media/franklyn.97c3898f465bef643723.png",
+    "static/media/My_Yeraly_Record_Profile.png": "/franklyn_portfolio/static/media/My_Yeraly_Record_Profile.d7174d83eb6ae3158d75.png",
     "static/media/Tech Blog app.jpg": "/franklyn_portfolio/static/media/Tech Blog app.8fdac17719556f1354e0.jpg",
     "static/media/Work-day-Scheduler.jpg": "/franklyn_portfolio/static/media/Work-day-Scheduler.2d8c15591a7fe7c89bf9.jpg",
     "static/media/Movie_Battle.jpg": "/franklyn_portfolio/static/media/Movie_Battle.244af2b1651bdb43ece0.jpg",
@@ -13,10 +14,10 @@
     "index.html": "/franklyn_portfolio/index.html",
     "static/media/linkedin-original.svg": "/franklyn_portfolio/static/media/linkedin-original.15f0337078f13db400acab3639711ec7.svg",
     "main.c2cab247.css.map": "/franklyn_portfolio/static/css/main.c2cab247.css.map",
-    "main.1d6668e5.js.map": "/franklyn_portfolio/static/js/main.1d6668e5.js.map"
+    "main.169d3be0.js.map": "/franklyn_portfolio/static/js/main.169d3be0.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.1d6668e5.js"
+    "static/js/main.169d3be0.js"
   ]
 }
