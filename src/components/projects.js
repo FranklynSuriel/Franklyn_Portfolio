@@ -6,6 +6,8 @@ import NeoPlants from './pictures/Neo Plants.jpg'
 import movieBattle from './pictures/Movie_Battle.jpg'
 import noteTaker from './pictures/Note_Taker.jpg'
 import scheduler from './pictures/Work-day-Scheduler.jpg'
+import YearlyRecord from './pictures/My_Yeraly_Record_Profile.png'
+
 
 // set height of cards and pics sizes
 const styles = {
@@ -26,7 +28,18 @@ function Projects() {
         <div id='work' className='row my-5'>
             <h2 className='text-center' >Portfolio</h2>
             <div className='d-flex flex-wrap justify-content-center p-5'>
-                {/* Create diferent card to display projects, display them by 3 and mobile one */}
+                {/* Create different card to display projects, display them by 3 and mobile one */}
+                <div className='col-12 col-md-6 col-lg-4 p-4'>                    
+                    <div className="card  "  >
+                        <div className="card-body" style={styles.card}>
+                            <h5 className="card-title">My Yearly Record</h5>
+                            <p className="card-text">an easy way to create lists of your interested books or tv shows while making friends with common interest</p>
+                            <img className='shadow m-3' style={styles.pics} src={YearlyRecord} alt='My Yearly List app' />
+                            <a href="https://gentle-falls-37134.herokuapp.com/" className="card-link">Deployed link</a>
+                            <a href="https://github.com/FranklynSuriel/My_Yearly_Record" class="card-link">GitHub link</a>
+                        </div>
+                    </div>
+                </div>
                 <div className='col-12 col-md-6 col-lg-4 p-4'>                    
                     <div className="card  "  >
                         <div className="card-body" style={styles.card}>
