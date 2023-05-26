@@ -36,7 +36,7 @@ function Projects() {
                             <p className="card-text">an easy way to create lists of your interested books or tv shows while making friends with common interest</p>
                             <img className='shadow m-3' style={styles.pics} src={YearlyRecord} alt='My Yearly List app' />
                             <a href="https://gentle-falls-37134.herokuapp.com/" className="card-link">Deployed link</a>
-                            <a href="https://github.com/FranklynSuriel/My_Yearly_Record" class="card-link">GitHub link</a>
+                            <a href="https://github.com/FranklynSuriel/My_Yearly_Record" className="card-link">GitHub link</a>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ function Projects() {
                             <p className="card-text">An interactive game app where you can grow you plant on the screen</p>
                             <img className='shadow m-3' style={styles.pics} src={NeoPlants} alt='NeoPlant game' />
                             <a href="https://grey-stones.herokuapp.com/" className="card-link">Deployed link</a>
-                            <a href="https://github.com/alexander1262/NeoPlants-Interactive-Web-Game" class="card-link">GitHub link</a>
+                            <a href="https://github.com/alexander1262/NeoPlants-Interactive-Web-Game" className="card-link">GitHub link</a>
                         </div>
                     </div>
                 </div>
