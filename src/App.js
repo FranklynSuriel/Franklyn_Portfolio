@@ -17,9 +17,9 @@ const styles = {
 function App() {
   // create sentences to display in animation
   const texts = [
-    'a full stack developer.',
-    'studying React.',
-    'constantly learning.'
+    ' a full stack developer.',
+    ' studying React.',
+    ' constantly learning.'
   ];
   // return components to render
   return (

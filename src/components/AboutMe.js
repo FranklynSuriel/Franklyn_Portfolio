@@ -29,9 +29,12 @@ function Aboutme() {
                 <h2 className='text-center'>About Me</h2>
                 <div className=" d-flex flex-wrap justify-content-center p-5">
                     <img className='rounded-5 col-12 col-md-4 m-3' style={styles.ownerImg} src={myPic} alt="Portfolio owner" />
-                    <p className='col-12 col-md-6 m-4' style={styles.p}>Greetings! Welcome to my portfolio, my name is Franklyn. I am a full stack web developer graduated from the UPenn full stack 
-                    web developer. Since I started studying web development, I have been constantly fascinated by the world of web technologies. I am proficient in HTML, CSS, and JavaScript, and I have experience in using Bootstrap to create
-                        responsive, mobile-first designs. I also have experience working with Web APIs and Third-Party APIs to develop interactive web applications.
+                    <p className='col-12 col-md-6 m-4' style={styles.p}>Greetings! Welcome to my portfolio, my name is Franklyn.
+                        I am a full stack web developer graduated from the UPenn full stack web developer.
+                        I am proficient in HTML, CSS, and JavaScript, and I have experience in using Bootstrap to create responsive, mobile-first designs.
+                        I also have experience working with Web APIs and Third-Party APIs to develop interactive web applications.
+                        Strengths in teamwork, creativity, time management and building projects from ideation to completion,
+                        ensuring a smooth and impactful user journey.
                     </p>
                 </div>
             </div>
