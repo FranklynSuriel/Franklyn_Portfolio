@@ -7,9 +7,9 @@ import resume from './assets/Resume.pdf'
 // use bootstrap for style and spacing
 function Header() {
     return (
-        <header className='d-flex justify-content-between'>
-            <h3 className='p-3'>Franklyn Suriel</h3>
-            <div id="navbar-example2" className="navbar navbar-light px-3 ">
+        <header className='fixed-top bg-secondary z-3 w-100 d-flex justify-content-between'>
+            <h3 className='p-3 z-3'>Franklyn Suriel</h3>
+            <div id="navbar-example2" className="navbar navbar-light px-3 z-3 ">
                 <ul className="nav nav-pills">
                     <li className="nav-item">
                         <a className="nav-link text-dark" href="#home">Home</a>

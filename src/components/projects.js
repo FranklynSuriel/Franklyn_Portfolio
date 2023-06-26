@@ -25,7 +25,7 @@ const styles = {
 // use bootstrap for style
 function Projects() {
     return (
-        <div id='work' className='row my-5'>
+        <div id='work' className='row my-5 z-1'>
             <h2 className='text-center' >Portfolio</h2>
             <div className='d-flex flex-wrap justify-content-center p-5'>
                 {/* Create different card to display projects, display them by 3 and mobile one */}
