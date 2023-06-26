@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/franklyn_portfolio/static/css/main.c2cab247.css",
-    "main.js": "/franklyn_portfolio/static/js/main.b4eb40d7.js",
+    "main.css": "/franklyn_portfolio/static/css/main.bcfd3354.css",
+    "main.js": "/franklyn_portfolio/static/js/main.5a12bcd6.js",
     "static/media/franklyn.png": "/franklyn_portfolio/static/media/franklyn.97c3898f465bef643723.png",
     "static/media/My_Yeraly_Record_Profile.png": "/franklyn_portfolio/static/media/My_Yeraly_Record_Profile.d7174d83eb6ae3158d75.png",
     "static/media/Resume.pdf": "/franklyn_portfolio/static/media/Resume.9fb8a828cebe0d2d8b92.pdf",
@@ -13,11 +13,11 @@
     "static/media/github-original.svg": "/franklyn_portfolio/static/media/github-original.3c903c66b2c5334c8c0b80567c4ea422.svg",
     "index.html": "/franklyn_portfolio/index.html",
     "static/media/linkedin-original.svg": "/franklyn_portfolio/static/media/linkedin-original.15f0337078f13db400acab3639711ec7.svg",
-    "main.c2cab247.css.map": "/franklyn_portfolio/static/css/main.c2cab247.css.map",
-    "main.b4eb40d7.js.map": "/franklyn_portfolio/static/js/main.b4eb40d7.js.map"
+    "main.bcfd3354.css.map": "/franklyn_portfolio/static/css/main.bcfd3354.css.map",
+    "main.5a12bcd6.js.map": "/franklyn_portfolio/static/js/main.5a12bcd6.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2cab247.css",
-    "static/js/main.b4eb40d7.js"
+    "static/css/main.bcfd3354.css",
+    "static/js/main.5a12bcd6.js"
   ]
 }
