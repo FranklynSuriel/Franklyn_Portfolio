@@ -1,0 +1,16 @@
+#name {
+  font-size: 4.4rem;
+}
+#animation {
+  font-size: 2.4rem;
+}
+
+@media screen and (max-width: 768px) {
+  #name {
+    font-size: 2.2rem;
+  }
+
+  #animation {
+    font-size: 1.2rem;
+  }
+}

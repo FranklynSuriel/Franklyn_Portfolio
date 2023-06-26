@@ -75,7 +75,7 @@ function ContactMe() {
             <h1 className="text-center pb-5" >Contact Me</h1>
             <div className="container mb-3">
                 <div className="d-flex justify-content-center"  >
-                    <form ref={form} onSubmit={sendEmail} className="form mb-5 w-25">
+                    <form ref={form} onSubmit={sendEmail} className="form mb-5 col-8 col-md-6 col-lg-5">
                         <input
                             value={fullName}
                             name="fullName"
@@ -84,6 +84,7 @@ function ContactMe() {
                             type="text"
                             placeholder="Your Name"
                             className="form-control mb-3"
+                            id="inputName"
                         />
                         <input
                             value={email}
@@ -93,6 +94,7 @@ function ContactMe() {
                             type="email"
                             placeholder="Your Email"
                             className="form-control mb-3"
+                            id="inputEmail"
                         />
                         <textarea
                             value={message}
@@ -102,6 +104,7 @@ function ContactMe() {
                             type="textarea"
                             placeholder="Message"
                             className="form-control mb-3"
+                            id="inputMessage"
                         />
                         <button className="btn btn-primary" type="submit" >
                             Submit

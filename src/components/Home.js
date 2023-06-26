@@ -1,17 +1,12 @@
 // import react, useState, useEffect and useRef
 import React, { useState, useEffect, useRef } from 'react';
+import '../styles/home.css';
 
 // Style the name and animation
 const styles = {
   position: {
     position: 'relative'
   },
-  nameText: {
-    fontSize: '4.4rem'
-  },
-  animationText: {
-    fontSize: '2.4rem',
-  }
 }
 
 const Home = ({ texts }) => {
@@ -72,13 +67,13 @@ const Home = ({ texts }) => {
   }, [texts]);
 
   return (
-    <div id='home' className='vh-100 d-flex justify-content-center align-items-center' style={styles.position}>
+    <div id='home' className='z-n1 vh-100 d-flex justify-content-center align-items-center' style={styles.position}>
       <div>
         <div className='d-flex'>
-          <h1 style={styles.nameText}>Franklyn Suriel</h1>
+          <h1 id='name' className='z-n1'>Franklyn Suriel</h1>
         </div>
         <div>
-          <p className='d-flex' style={styles.animationText}>I am {currentText}</p>
+          <p id='animation' className='d-flex'>I am {currentText}</p>
         </div>
       </div>
     </div>

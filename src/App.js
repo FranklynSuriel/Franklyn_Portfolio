@@ -19,7 +19,8 @@ function App() {
   const texts = [
     ' a full stack developer.',
     ' studying React.',
-    ' constantly learning.'
+    ' constantly learning.',
+    ' Team Player.'
   ];
   // return components to render
   return (
