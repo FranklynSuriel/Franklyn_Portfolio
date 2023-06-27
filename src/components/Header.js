@@ -16,6 +16,11 @@ const Nav = styled.nav`
         font-size: 2rem;
     }
 
+    @media (max-width: 768px) {
+        .logo {
+            font-size: 1.3rem
+        }
+    }
     
 `
 
