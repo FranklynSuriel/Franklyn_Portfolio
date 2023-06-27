@@ -60,6 +60,10 @@ Documentation(s) and webpage(s):
 - create-react-app.dev
 - CodeSandbox
 
+Tutorial:
+
+[https://www.youtube.com/watch?v=GGkBwpxV7AI&ab_channel=FullStackMastery](https://www.youtube.com/watch?v=GGkBwpxV7AI&ab_channel=FullStackMastery)
+
 Inspiration:
 
 [https://www.braiscao.dev/](https://www.braiscao.dev/)
