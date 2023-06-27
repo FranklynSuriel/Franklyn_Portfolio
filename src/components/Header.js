@@ -1,33 +1,36 @@
 // import react
 import React from 'react';
-import resume from './assets/Resume.pdf'
+import styled from 'styled-components';
+import Burger from './Nav/Burger'
+
+const Nav = styled.nav`
+    width: 100%;
+    height: 65px;
+    
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+
+    .logo{
+        padding:15px;
+        font-size: 2rem;
+    }
+
+    
+`
 
 // create a function to render the header section. 
 // include my name on the top-left and a nav bar on the top-right
 // use bootstrap for style and spacing
 function Header() {
     return (
-        <header className='fixed-top bg-secondary z-3 w-100 d-flex justify-content-between'>
-            <h3 className='p-3 z-3'>Franklyn Suriel</h3>
-            <div id="navbar-example2" className="navbar navbar-light px-3 z-3 ">
-                <ul className="nav nav-pills">
-                    <li className="nav-item">
-                        <a className="nav-link text-dark" href="#home">Home</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link text-dark" href="#aboutMe">About Me</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link text-dark" href="#work">Portfolio</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link text-dark" href="#contactMe">Contact Me</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link text-dark" href={resume}>Resume</a>
-                    </li>
-                </ul>
+        <header className='fixed-top bg-secondary z-3'>
+        <Nav>
+            <div className='logo'>
+                Franklyn Suriel
             </div>
+            <Burger />
+        </Nav>
         </header>
     );
 }
