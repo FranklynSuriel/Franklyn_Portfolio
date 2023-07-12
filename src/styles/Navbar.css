@@ -1,0 +1,8 @@
+.fixed {
+  position: sticky;
+  background: lightsteelblue;
+  transition: 0.4s ease-in-out;
+  top: 0px;
+  z-index: 3;
+  
+}
