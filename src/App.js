@@ -18,13 +18,13 @@ function App() {
   // create sentences to display in animation
   const texts = [
     ' a full stack developer.',
-    ' studying React.',
     ' constantly learning.',
-    ' Team Player.'
+    ' studying NextJS.',
+    ' a team player.'
   ];
   // return components to render
   return (
-    <div style={styles.body} className="App">
+    <div style={styles.body} className="App" id='home'>
       <Header />
       <Home texts={texts} />
       <Aboutme />
