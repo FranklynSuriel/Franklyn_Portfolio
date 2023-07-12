@@ -25,7 +25,7 @@ function Aboutme() {
         // use bootstrap to set display flex and justify content center
         // add an about me id tag to link to the nav bar
         <div id='aboutMe' className="row d-flex justify-content-center" style={styles.padding}>
-            <div col-12 >
+            <div>
                 <h2 className='text-center'>About Me</h2>
                 <div className=" d-flex flex-wrap justify-content-center p-5">
                     <img className='rounded-5 col-12 col-md-4 m-3' style={styles.ownerImg} src={myPic} alt="Portfolio owner" />

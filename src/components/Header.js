@@ -41,7 +41,7 @@ function Header() {
   window.addEventListener("scroll", fixedHeader);
 
   return (
-    <header className={fix ? "fixed shadow" : "navbar"}>
+    <header className={fix ? 'fixed shadow' : 'fixed-top'}>
       <Nav>
         <div className="logo">Franklyn Suriel</div>
         <Burger />
