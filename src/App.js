@@ -24,7 +24,7 @@ function App() {
   ];
   // return components to render
   return (
-    <div style={styles.body} className="App" id='home'>
+    <div style={styles.body} className="App">
       <Header />
       <Home texts={texts} />
       <Aboutme />
