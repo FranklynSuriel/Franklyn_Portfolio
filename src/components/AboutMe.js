@@ -14,8 +14,9 @@ const styles = {
         fontSize: '1.4rem',
         textAlign: 'justify'
     },
-    padding: {
-        padding: '0 0 200px 0'
+    aboutMe: {
+        padding: '0 0 200px 0',
+        background: '#006ba6'
     }
 }
 
@@ -24,7 +25,7 @@ function Aboutme() {
     return (
         // use bootstrap to set display flex and justify content center
         // add an about me id tag to link to the nav bar
-        <div id='aboutMe' className="row d-flex justify-content-center" style={styles.padding}>
+        <div id='aboutMe' className="row d-flex justify-content-center pt-5" style={styles.aboutMe}>
             <div>
                 <h2 className='text-center'>About Me</h2>
                 <div className=" d-flex flex-wrap justify-content-center p-5">
