@@ -5,8 +5,9 @@ import '../styles/home.css';
 // Style the name and animation
 const styles = {
   position: {
-    position: 'relative'
-  },
+    position: 'relative',
+    background: '#006ba6'
+  }
 }
 
 const Home = ({ texts }) => {

@@ -14,6 +14,9 @@ const styles = {
   height: {
     height: "200px",
   },
+  contactMe: {
+    background: "#FE9000",
+  },
 };
 
 function ContactMe() {
@@ -75,7 +78,7 @@ function ContactMe() {
   // create a function to manage contact me section
   // set the title and create links to my github and linkedin
   return (
-    <div id="contactMe">
+    <div id="contactMe" style={styles.contactMe}>
       <h1 className="text-center">Contact Me</h1>
       <h6 className="text-center pb-5">fsuriel@gmail.com</h6>
       <div className="container mb-3">
