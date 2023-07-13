@@ -68,13 +68,13 @@ const Home = ({ texts }) => {
   }, [texts]);
 
   return (
-    <div id='home' className='z-n1 vh-100 d-flex justify-content-center align-items-center' style={styles.position}>
-      <div>
-        <div className='d-flex'>
+    <div id='home' className=' z-n1 vh-100 d-flex justify-content-center align-items-center ' style={styles.position}>
+      <div className=''>
+        <div className='align-items-center'>
           <h1 id='name' className='z-n1'>Franklyn Suriel</h1>
         </div>
         <div>
-          <p id='animation' className='d-flex'>I am {currentText}</p>
+          <p id='animation' className=''>I am {currentText}</p>
         </div>
       </div>
     </div>
