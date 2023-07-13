@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/franklyn_portfolio/static/css/main.7e10a93c.css",
-    "main.js": "/franklyn_portfolio/static/js/main.4606b4b0.js",
+    "main.js": "/franklyn_portfolio/static/js/main.e4977218.js",
     "static/media/franklyn.png": "/franklyn_portfolio/static/media/franklyn.97c3898f465bef643723.png",
     "static/media/My_Yeraly_Record_Profile.png": "/franklyn_portfolio/static/media/My_Yeraly_Record_Profile.d7174d83eb6ae3158d75.png",
     "static/media/Resume.pdf": "/franklyn_portfolio/static/media/Resume.fbddc460f9d55021b78a.pdf",
@@ -15,10 +15,10 @@
     "static/media/linkedin-original.svg": "/franklyn_portfolio/static/media/linkedin-original.15f0337078f13db400acab3639711ec7.svg",
     "static/media/mail.svg": "/franklyn_portfolio/static/media/mail.5fb478678cbda162f115c43dc044acf0.svg",
     "main.7e10a93c.css.map": "/franklyn_portfolio/static/css/main.7e10a93c.css.map",
-    "main.4606b4b0.js.map": "/franklyn_portfolio/static/js/main.4606b4b0.js.map"
+    "main.e4977218.js.map": "/franklyn_portfolio/static/js/main.e4977218.js.map"
   },
   "entrypoints": [
     "static/css/main.7e10a93c.css",
-    "static/js/main.4606b4b0.js"
+    "static/js/main.e4977218.js"
   ]
 }
