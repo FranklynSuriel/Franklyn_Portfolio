@@ -36,7 +36,7 @@ function Projects() {
                     <div className="card  "  >
                         <div className="card-body" style={styles.card}>
                             <h5 className="card-title">My Yearly Record</h5>
-                            <p className="card-text">an easy way to create lists of your interested books or tv shows while making friends with common interest</p>
+                            <p className="card-text">An easy way to create lists of your interested books or tv shows while making friends with common interest</p>
                             <img className='shadow m-3' style={styles.pics} src={YearlyRecord} alt='My Yearly List app' />
                             <a href="https://gentle-falls-37134.herokuapp.com/" className="card-link">Deployed link</a>
                             <a href="https://github.com/FranklynSuriel/My_Yearly_Record" className="card-link">GitHub link</a>
@@ -59,7 +59,7 @@ function Projects() {
                         <div className="card-body" style={styles.card}>
                             <h5 className="card-title">Movie Battle</h5>
                             <p className="card-text">Movie Battle is a fun app that lets two people play a trivia game to decide what movie to watch.</p>
-                            <img className='shadow m-3 object-fit-contain' style={styles.pics} src={movieBattle} alt='Tech Blog app' />
+                            <img className='shadow m-3 object-fit-contain' style={styles.pics} src={movieBattle} alt='Movie Battle app' />
                             <a href="https://franklynsuriel.github.io/movie-battle/" className="card-link">Deployed link</a>
                             <a href="https://github.com/FranklynSuriel/movie-battle" className="card-link">GitHub link</a>
                         </div>
@@ -70,7 +70,7 @@ function Projects() {
                         <div className="card-body" style={styles.card}>
                             <h5 className="card-title">Note Taker</h5>
                             <p className="card-text">A note taker application to keep your notes save and easy organized.</p>
-                            <img className='shadow m-3 object-fit-contain' style={styles.pics} src={noteTaker} alt='Tech Blog app' />
+                            <img className='shadow m-3 object-fit-contain' style={styles.pics} src={noteTaker} alt='Note Taker app' />
                             <a href="https://thawing-everglades-51813.herokuapp.com/" className="card-link">Deployed link</a>
                             <a href="https://github.com/FranklynSuriel/Note_Taker" className="card-link">GitHub link</a>
                         </div>
@@ -92,7 +92,7 @@ function Projects() {
                         <div className="card-body" style={styles.card}>
                             <h5 className="card-title">Work_Day_Scheduler</h5>
                             <p className="card-text">Simple calendar application that allows a user to save events for each hour of the day.</p>
-                            <img className='shadow m-3 object-fit-contain' style={styles.pics} src={scheduler} alt='Tech Blog app' />
+                            <img className='shadow m-3 object-fit-contain' style={styles.pics} src={scheduler} alt='Work_Day_Scheduler app' />
                             <a href="https://franklynsuriel.github.io/Work_Day_Scheduler/" className="card-link">Deployed link</a>
                             <a href="https://github.com/FranklynSuriel/Work_Day_Scheduler" className="card-link">GitHub link</a>
                         </div>
@@ -103,7 +103,7 @@ function Projects() {
                         <div className="card-body" style={styles.card}>
                             <h5 className="card-title">Password Generator</h5>
                             <p className="card-text">A CMS-style blog where you can publish articles, blog post, comment other user post, update or delete your post and more.</p>
-                            <img className='shadow m-3 object-fit-contain' style={styles.pics} src={Tech_Blog} alt='Tech Blog app' />
+                            <img className='shadow m-3 object-fit-contain' style={styles.pics} src={Tech_Blog} alt='Password Generator app' />
                             <a href="https://franklynsuriel.github.io/Password_Generator/" className="card-link">Deployed link</a>
                             <a href="https://github.com/FranklynSuriel/Password_Generator" className="card-link">GitHub link</a>
                         </div>

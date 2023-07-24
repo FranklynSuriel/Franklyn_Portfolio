@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Aboutme from "./components/AboutMe";
 import Projects from "./components/projects";
+// import Portfolio from "./components/portfolio/Portfolio";
 import ContactMe from "./components/contactMe";
 
 // create app function
