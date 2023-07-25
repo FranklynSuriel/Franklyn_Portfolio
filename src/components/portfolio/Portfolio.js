@@ -12,11 +12,13 @@ import {
   Flex,
   Grid,
   theme,
+  Link
 } from "../../ui";
 
 import "../../ui/molecules/global-styles/global.css";
 
-import cards from "../portfolio";
+// import cards from "../portfolio";
+import Cards from '../portfolio/Cards'
 
 const GridContainer = styled(Grid)``;
 GridContainer.defaultProps = {
@@ -76,8 +78,8 @@ function Portfolio() {
   const [isDelayed, setIsDelayed] = useState(true);
 
   const springs = useSprings(
-    cards.length,
-    cards.map((item, i) => ({
+    Cards.length,
+    Cards.map((item, i) => ({
       delay: isDelayed ? 250 * i : 0,
       opacity: 1,
       transform: "translateY(0px)",
@@ -98,8 +100,8 @@ function Portfolio() {
     <ThemeProvider theme={theme}>
       <Box bg="bg100" minHeight="100vh" pt={1} pb={12}>
         <Container>
-          <Heading textAlign="center">
-            React Spring Example - useSprings
+          <Heading textAlign="center" pb={2} mt={4}>
+            Portfolio
           </Heading>
           <Typography textAlign="center" pb={2}>
             Click on list item to remove overlay and show text
@@ -118,19 +120,25 @@ function Portfolio() {
                   key={i}
                 >
                   <AnimatedItem
-                    background={`url(${cards[i].url}?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)`}
+                    background={`url(${Cards[i].img}?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)`}
                     style={{ opacity, transform }}
                   >
                     <TitleWrapper style={{ opacity: overlayOpacity }}>
-                      {cards[i].title}
+                      {Cards[i].title}
                     </TitleWrapper>
                   </AnimatedItem>
                   <TextWrapper style={{ height: textHeight }}>
                     <AnimatedBox style={{ opacity: textOpacity }} p={2}>
                       <Typography fontSize={3} fontWeight={2} pb={2}>
-                        {cards[i].title}
+                        {Cards[i].title}
                       </Typography>
-                      {cards[i].text}
+                      {Cards[i].text}
+                      <button>
+                        <a href={`${Cards[i].deployedLink}`} className="card-link">Deployed link</a>
+                      </button>
+                      <button>
+                        <a href={`${Cards[i].githubLink}`} className="card-link">GitHub link</a>
+                      </button>
                     </AnimatedBox>
                   </TextWrapper>
                 </AnimatedItem>
