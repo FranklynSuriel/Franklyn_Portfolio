@@ -3,8 +3,8 @@ import React from "react";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Aboutme from "./components/AboutMe";
-import Projects from "./components/projects";
-// import Portfolio from "./components/portfolio/Portfolio";
+// import Projects from "./components/projects";
+import Portfolio from "./components/portfolio/Portfolio";
 import ContactMe from "./components/contactMe";
 
 // create app function
@@ -22,7 +22,7 @@ function App() {
       <Header />
       <Home texts={texts} />
       <Aboutme />
-      <Projects />
+      <Portfolio />
       <ContactMe />
     </div>
   );

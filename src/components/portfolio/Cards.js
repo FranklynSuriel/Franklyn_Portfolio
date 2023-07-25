@@ -1,10 +1,10 @@
-import YearlyRecord from "../pictures/My_Yeraly_Record_Profile.png";
-import NeoPlants from "../pictures/Neo Plants.jpg";
+import YearlyRecord from "../pictures/My_Yearly_Record_Profile.png";
+import NeoPlants from "../pictures/NeoPlants.jpg";
 import MovieBattle from "../pictures/Movie_Battle.jpg";
 import NoteTaker from "../pictures/Note_Taker.jpg";
-import TechBlog from "../pictures/Tech Blog app.jpg";
-import WorkDayScheduler from "../pictures/Work_Day_Scheduler.jpg";
-import PasswordGenerator from "../pictures/password generator.jpg";
+import TechBlog from "../pictures/TechBlogApp.jpg";
+import WorkDayScheduler from "../pictures/Work-day-Scheduler.jpg";
+import PasswordGenerator from "../pictures/PasswordGenerator.jpg";
 
 export default [
   {
@@ -58,7 +58,7 @@ export default [
   },
   {
     title: "Password Generator",
-    text: "A CMS-style blog where you can publish articles, blog post, comment other user post, update or delete your post and more.",
+    text: "A JavaScript app to generate random password with the user specification ",
     img: PasswordGenerator,
     alt: "Password Generator app",
     deployedLink: "https://franklynsuriel.github.io/Password_Generator/",
