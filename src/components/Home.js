@@ -6,7 +6,6 @@ import '../styles/home.css';
 const styles = {
   position: {
     position: 'relative',
-    background: '#006ba6'
   }
 }
 
