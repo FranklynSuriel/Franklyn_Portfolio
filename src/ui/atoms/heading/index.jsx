@@ -3,11 +3,11 @@ import { Typography } from "../typography";
 
 export const Heading = styled(Typography)`
   font-size: ${props =>
-    props.as === "h1" ? "24px" : props.as === "h2" ? "20px" : "16px"};
+    props.as === "h1" ? "32px" : props.as === "h2" ? "Portfolio" : "16px"};
 `;
 
 Heading.defaultProps = {
-  as: "h1",
+  as: "h2",
   fontWeight: 2,
   color: "textTitle"
 };

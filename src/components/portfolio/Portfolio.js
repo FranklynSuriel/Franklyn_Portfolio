@@ -4,21 +4,11 @@ import { animated, useSprings } from "@react-spring/web";
 
 import styled, { ThemeProvider } from "styled-components";
 
-import {
-  Box,
-  Container,
-  Heading,
-  Typography,
-  Flex,
-  Grid,
-  theme,
-  Link
-} from "../../ui";
+import { Box, Container, Typography, Flex, Grid, theme } from "../../ui";
 
 import "../../ui/molecules/global-styles/global.css";
 
-// import cards from "../portfolio";
-import Cards from '../portfolio/Cards'
+import Cards from "../portfolio/Cards";
 
 const GridContainer = styled(Grid)``;
 GridContainer.defaultProps = {
@@ -97,57 +87,75 @@ function Portfolio() {
   );
 
   return (
-    <ThemeProvider theme={theme}>
-      <Box bg="bg100" minHeight="100vh" pt={1} pb={12}>
-        <Container>
-          <Heading textAlign="center" pb={2} mt={4}>
+    <div id="work" className="row">
+      <ThemeProvider theme={theme}>
+        <Box minHeight="100vh" pt={5} pb={6}>
+          <Container>
+            <h2 className="text-center pt-5 pb-5">Portfolio</h2>
+            {/* <Heading textAlign="center" pb={4} >
             Portfolio
-          </Heading>
-          <Typography textAlign="center" pb={2}>
-            Click on list item to remove overlay and show text
-          </Typography>
-          <GridContainer>
-            {springs.map(
-              (
-                { opacity, transform, overlayOpacity, textOpacity, textHeight },
-                i
-              ) => (
-                <AnimatedItem
-                  onClick={() => {
-                    setIndex(i);
-                    setIsDelayed(false);
-                  }}
-                  key={i}
-                >
+          </Heading> */}
+            <GridContainer>
+              {springs.map(
+                (
+                  {
+                    opacity,
+                    transform,
+                    overlayOpacity,
+                    textOpacity,
+                    textHeight,
+                  },
+                  i
+                ) => (
                   <AnimatedItem
-                    background={`url(${Cards[i].img}?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)`}
-                    style={{ opacity, transform }}
+                    onClick={() => {
+                      setIndex(i);
+                      setIsDelayed(false);
+                    }}
+                    key={i}
                   >
-                    <TitleWrapper style={{ opacity: overlayOpacity }}>
-                      {Cards[i].title}
-                    </TitleWrapper>
-                  </AnimatedItem>
-                  <TextWrapper style={{ height: textHeight }}>
-                    <AnimatedBox style={{ opacity: textOpacity }} p={2}>
-                      <Typography fontSize={3} fontWeight={2} pb={2}>
+                    <AnimatedItem
+                      background={`url(${Cards[i].img}?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)`}
+                      style={{ opacity, transform }}
+                    >
+                      <TitleWrapper style={{ opacity: overlayOpacity }}>
                         {Cards[i].title}
+                      </TitleWrapper>
+                    </AnimatedItem>
+                    <TextWrapper style={{ height: textHeight }}>
+                      <AnimatedBox style={{ opacity: textOpacity }} p={2}>
+                        <Typography fontSize={3} fontWeight={2} pb={2}>
+                          {Cards[i].title}
+                        </Typography>
+                        {Cards[i].text}
+                      </AnimatedBox>
+                      <Typography>
+                        <button type="button" className="mx-2 btn btn-info">
+                          <a 
+                            href={`${Cards[i].deployedLink}`} 
+                            className="text-decoration-none text-black"
+                          >
+                            Deployed link
+                          </a>
+                        </button>
+                        <button type="button" className="mx-2 btn btn-info">
+                          <a
+                            href={`${Cards[i].githubLink}`}
+                            className="text-decoration-none text-black"
+                          >
+                            GitHub Link
+                          </a>
+                        </button>
                       </Typography>
-                      {Cards[i].text}
-                      <button>
-                        <a href={`${Cards[i].deployedLink}`} className="card-link">Deployed link</a>
-                      </button>
-                      <button>
-                        <a href={`${Cards[i].githubLink}`} className="card-link">GitHub link</a>
-                      </button>
-                    </AnimatedBox>
-                  </TextWrapper>
-                </AnimatedItem>
-              )
-            )}
-          </GridContainer>
-        </Container>
-      </Box>
-    </ThemeProvider>
+                    </TextWrapper>
+                  </AnimatedItem>
+                )
+              )}
+            </GridContainer>
+          </Container>
+        </Box>
+      </ThemeProvider>
+    </div>
   );
 }
 

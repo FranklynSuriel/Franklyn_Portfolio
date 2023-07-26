@@ -6,9 +6,15 @@ import Aboutme from "./components/AboutMe";
 // import Projects from "./components/projects";
 import Portfolio from "./components/portfolio/Portfolio";
 import ContactMe from "./components/contactMe";
+const styles = {
+  background: {
+      background: '#006ba6'
+  }
+}
 
 // create app function
 function App() {
+
   // create sentences to display in animation
   const texts = [
     " a full stack developer.",
@@ -18,7 +24,7 @@ function App() {
   ];
   // return components to render
   return (
-    <div className="App">
+    <div className="App" style={styles.background}>
       <Header />
       <Home texts={texts} />
       <Aboutme />
