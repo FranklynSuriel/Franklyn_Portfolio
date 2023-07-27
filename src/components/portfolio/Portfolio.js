@@ -32,7 +32,7 @@ AnimatedItem.defaultProps = {
   justifyContent: "space-evenly",
   alignItems: "center",
   flexDirection: "column",
-  height: [300, null, 450],
+  height: [450, null, 450],
 };
 
 const TitleWrapper = styled(animated(Flex))``;

@@ -86,7 +86,7 @@ function ContactMe() {
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="form mb-5 col-8 col-md-6 col-lg-5"
+            className="form mb-5 col-7 col-md-5 col-lg-6 col-xl-3 col-xxl-3 "
           >
             <input
               value={fullName}
