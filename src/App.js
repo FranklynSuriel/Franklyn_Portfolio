@@ -1,7 +1,7 @@
 // import react and components
 import React from "react";
 import Header from "./components/Header";
-import Home from "./components/Home";
+// import Home from "./components/Home";
 import Aboutme from "./components/AboutMe";
 // import Projects from "./components/projects";
 import Portfolio from "./components/portfolio/Portfolio";
@@ -22,11 +22,11 @@ function App() {
     " studying NextJS.",
     " a team player.",
   ];
+  // <Home texts={texts} />
   // return components to render
   return (
     <div className="App" style={styles.background}>
       <Header />
-      <Home texts={texts} />
       <Aboutme />
       <Portfolio />
       <ContactMe />

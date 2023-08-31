@@ -34,9 +34,9 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={ open } >
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a className="nav-link" href="#home">Home</a>
-      </li>
+      </li> */}
       <li>
         <a className="nav-link" href="#aboutMe">About Me</a>
       </li>
