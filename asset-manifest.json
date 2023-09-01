@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/franklyn_portfolio/static/css/main.85f7f829.css",
-    "main.js": "/franklyn_portfolio/static/js/main.c4ab4099.js",
-    "static/media/franklyn.png": "/franklyn_portfolio/static/media/franklyn.97c3898f465bef643723.png",
-    "static/media/My_Yearly_Record_Profile.png": "/franklyn_portfolio/static/media/My_Yearly_Record_Profile.d7174d83eb6ae3158d75.png",
-    "static/media/Resume.pdf": "/franklyn_portfolio/static/media/Resume.d571e48fd85bd9627378.pdf",
-    "static/media/TechBlogApp.jpg": "/franklyn_portfolio/static/media/TechBlogApp.8fdac17719556f1354e0.jpg",
-    "static/media/Work-day-Scheduler.jpg": "/franklyn_portfolio/static/media/Work-day-Scheduler.2d8c15591a7fe7c89bf9.jpg",
-    "static/media/Movie_Battle.jpg": "/franklyn_portfolio/static/media/Movie_Battle.244af2b1651bdb43ece0.jpg",
-    "static/media/NeoPlants.jpg": "/franklyn_portfolio/static/media/NeoPlants.feab69274204463ec292.jpg",
-    "static/media/Note_Taker.jpg": "/franklyn_portfolio/static/media/Note_Taker.bee6ec2669e27729a848.jpg",
-    "static/media/PasswordGenerator.jpg": "/franklyn_portfolio/static/media/PasswordGenerator.7be9a196c5d0143235d5.jpg",
-    "static/media/github-original.svg": "/franklyn_portfolio/static/media/github-original.3c903c66b2c5334c8c0b80567c4ea422.svg",
-    "index.html": "/franklyn_portfolio/index.html",
-    "static/media/linkedin-original.svg": "/franklyn_portfolio/static/media/linkedin-original.15f0337078f13db400acab3639711ec7.svg",
-    "static/media/mail.svg": "/franklyn_portfolio/static/media/mail.5fb478678cbda162f115c43dc044acf0.svg",
-    "main.85f7f829.css.map": "/franklyn_portfolio/static/css/main.85f7f829.css.map",
-    "main.c4ab4099.js.map": "/franklyn_portfolio/static/js/main.c4ab4099.js.map"
+    "main.css": "/static/css/main.85f7f829.css",
+    "main.js": "/static/js/main.1cfd03c4.js",
+    "static/media/franklyn.png": "/static/media/franklyn.97c3898f465bef643723.png",
+    "static/media/My_Yearly_Record_Profile.png": "/static/media/My_Yearly_Record_Profile.d7174d83eb6ae3158d75.png",
+    "static/media/Resume.pdf": "/static/media/Resume.d571e48fd85bd9627378.pdf",
+    "static/media/TechBlogApp.jpg": "/static/media/TechBlogApp.8fdac17719556f1354e0.jpg",
+    "static/media/Work-day-Scheduler.jpg": "/static/media/Work-day-Scheduler.2d8c15591a7fe7c89bf9.jpg",
+    "static/media/Movie_Battle.jpg": "/static/media/Movie_Battle.244af2b1651bdb43ece0.jpg",
+    "static/media/NeoPlants.jpg": "/static/media/NeoPlants.feab69274204463ec292.jpg",
+    "static/media/Note_Taker.jpg": "/static/media/Note_Taker.bee6ec2669e27729a848.jpg",
+    "static/media/PasswordGenerator.jpg": "/static/media/PasswordGenerator.7be9a196c5d0143235d5.jpg",
+    "static/media/github-original.svg": "/static/media/github-original.3c903c66b2c5334c8c0b80567c4ea422.svg",
+    "index.html": "/index.html",
+    "static/media/linkedin-original.svg": "/static/media/linkedin-original.15f0337078f13db400acab3639711ec7.svg",
+    "static/media/mail.svg": "/static/media/mail.5fb478678cbda162f115c43dc044acf0.svg",
+    "main.85f7f829.css.map": "/static/css/main.85f7f829.css.map",
+    "main.1cfd03c4.js.map": "/static/js/main.1cfd03c4.js.map"
   },
   "entrypoints": [
     "static/css/main.85f7f829.css",
-    "static/js/main.c4ab4099.js"
+    "static/js/main.1cfd03c4.js"
   ]
 }
