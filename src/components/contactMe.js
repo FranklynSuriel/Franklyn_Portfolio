@@ -78,8 +78,8 @@ function ContactMe() {
   // create a function to manage contact me section
   // set the title and create links to my github and linkedin
   return (
-    <div id="contactMe" style={styles.contactMe} className="row">
-      <h1 className="text-center pt-5">Contact Me</h1>
+    <div id="contactMe" style={styles.contactMe} >
+      <h2 className="text-center pt-5">Contact Me</h2>
       <h6 className="text-center pb-5">fsuriel@gmail.com</h6>
       <div className="container mb-3">
         <div className="d-flex justify-content-center">

@@ -10,6 +10,13 @@ import "../../ui/molecules/global-styles/global.css";
 
 import Cards from "../portfolio/Cards";
 
+const styles = {
+  portfolio: {
+    maxWidth: '1200px',
+    margin: 'auto'
+  }
+}
+
 const GridContainer = styled(Grid)``;
 GridContainer.defaultProps = {
   gridTemplateColumns: [
@@ -87,7 +94,8 @@ function Portfolio() {
   );
 
   return (
-    <div id="work" className="row">
+    <div style={styles.portfolio} id="work" className="row">
+      <div></div>
       <ThemeProvider theme={theme}>
         <Box minHeight="100vh" pt={5} pb={6}>
           <Container>
