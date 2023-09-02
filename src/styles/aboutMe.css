@@ -1,0 +1,73 @@
+#aboutMe {
+  max-width: 1200px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#ownerImg {
+  max-height: 350px;
+  max-width: 300px;
+}
+
+p {
+  height: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: visible;
+  position: relative;
+  font-weight: 400;
+  font-style: normal;
+  color: #260c1a;
+  font-size: 20px;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  text-align: left;
+}
+
+
+@media screen and (max-width: 768px) {
+  #ownerImg {
+    aspect-ratio: auto;
+    max-width: 250px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #aboutMe {
+    max-width: 350px;
+  }
+
+  #ownerImg {
+    aspect-ratio: auto;
+    max-width: 130px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 320px ), (max-height: 717px)  {
+  #aboutMe {
+    height: auto;
+    padding-top: 90px;
+    max-width: 400px;
+  }
+  
+  #ownerImg {
+    aspect-ratio: auto;
+    max-width: 120px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
