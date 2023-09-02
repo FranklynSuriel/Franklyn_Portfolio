@@ -13,8 +13,8 @@ function Aboutme() {
             <div>
                 <h2 className='text-center '>About Me</h2>
                 <div className=" d-flex flex-wrap justify-content-center ">
-                    <img id='ownerImg' className='rounded-5 col-12 col-md-6 m-4' src={myPic} alt="Portfolio owner" />
-                    <p className='col-12 col-md-6 m-4'>Greetings! Welcome to my portfolio, my name is Franklyn.
+                    <img id='ownerImg' className='rounded-5' src={myPic} alt="Portfolio owner" />
+                    <p >Greetings! Welcome to my portfolio, my name is Franklyn.
                         I am a full stack web developer graduated from the UPenn full stack web developer.<br/><br/>
                         I am proficient in HTML, CSS, and JavaScript, and I have experience in using Bootstrap to create responsive, mobile-first designs.
                         I also have experience working with Web APIs and Third-Party APIs to develop interactive web applications.<br/><br/>

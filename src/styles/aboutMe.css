@@ -1,22 +1,23 @@
 #aboutMe {
-  max-width: 1200px;
+  max-width: 768px;
   margin: auto;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 36px 0;
 }
 
 #ownerImg {
   max-height: 350px;
   max-width: 300px;
+  padding: 24px 0;
 }
 
 p {
   height: auto;
   white-space: pre-wrap;
   word-wrap: break-word;
-  word-break: break-all;
   overflow: visible;
   position: relative;
   font-weight: 400;
@@ -30,6 +31,13 @@ p {
 
 
 @media screen and (max-width: 768px) {
+  #aboutMe {
+    max-width: 500px;
+    height: auto;
+    padding-top: 90px;
+    max-width: 400px;
+  }
+
   #ownerImg {
     aspect-ratio: auto;
     max-width: 250px;
@@ -51,7 +59,7 @@ p {
   }
 
   p {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -68,6 +76,6 @@ p {
   }
 
   p {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
