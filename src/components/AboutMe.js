@@ -10,10 +10,10 @@ function Aboutme() {
         // use bootstrap to set display flex and justify content center
         // add an about me id tag to link to the nav bar
         <div id='aboutMe' className="row" >
+                <h2 className='text-center'>About Me</h2>
             <div>
-                <h2 className='text-center '>About Me</h2>
-                <div className=" d-flex flex-wrap justify-content-center ">
-                    <img id='ownerImg' className='rounded-5' src={myPic} alt="Portfolio owner" />
+                <div className=" d-flex flex-wrap justify-content-center pt-4">
+                    <img id='ownerImg'  src={myPic} alt="Portfolio owner" />
                     <p >Greetings! Welcome to my portfolio, my name is Franklyn.
                         I am a full stack web developer graduated from the UPenn full stack web developer.<br/><br/>
                         I am proficient in HTML, CSS, and JavaScript, and I have experience in using Bootstrap to create responsive, mobile-first designs.
